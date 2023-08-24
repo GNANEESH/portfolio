@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- Linking CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Header & Navbar -->
+    <header class="bg-dark fixed-top">
+      <nav class="container-xxl navbar navbar-expand-lg py-3 bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-3" href="#">Gnaneesh.M</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#skills">SKILLS</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#cv">CURRICULUM VITAE</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero or Showcase Section -->
+    <section class="hero d-flex flex-column align-items-center justify-content-center">
+      <div class="text-center">
+        <h1 class="h1 text-white fw-medium fst-italic">Gnaneesh.M</h1>
+        <h2 class="display-3 text-white fw-bold">Information Technology <br /> student</h2>
+        <a href="#skills" class="btn btn-lg fs-6 fw-medium mt-5 btn-primary p-3">TELL ME MORE</a>
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="container py-5" id="skills">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2>SKILLS</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">Continuously improving my skills and knowledge......</h5>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-between mx-0">
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-cart-shopping"></i>
+          <h3 class="mt-4 h4">Full STACK Developer</h3>
+          <p class="text-center">Experience in  HTML, CSS, and JavaScript . Experienced in responsive web design, building user-friendly interfaces, and using modern frameworks like ReactJS.</p>
+        </div>
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-laptop"></i>
+          <h3 class="mt-4 h4">Python Developer</h3>
+          <p class="text-center">Skilled in server-side programming using technologies like pyhton and base like c,c++.Experience working with above languages and did some projects</p>
+        </div>
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-mobile-screen-button"></i>
+          <h3 class="mt-4 h4">Testing</h3>
+          <p class="text-center">Learning Testing and gaining experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="container py-5" id="portfolio">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2>Portfolio</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">A collection of projects I've worked on.</h5>
+        </div>
+        <div class="row mt-5 mx-0 justify-content-center align-items-center">
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 col-12 card-wrapper">
+            <div class="card mt-4">
+              <img src="image" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">EYE CONTROLLED MOUSE</h6>
+                <p class="card-text text-secondary">The project I've shared is a really cool real-time application that uses computer vision
+                   magic to control the computer mouse just by moving my eyes! It's like having a conversation between my face and the computer.
+                   The program watches me through the webcam and figures out where my eyes are looking.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/landing-page.jpg" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">VOICE ASSISTANCE</h6>
+                <p class="card-text text-secondary"> This project is a voice-controlled virtual assistant created using Python, enabling interactions
+                   with the computer through spoken commands.It responds to various voice inputs by playing music, providing information from Wikipedia, 
+                   telling jokes, and more, offering an engaging and hands-free way to interact with technology.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/calculator-app.jpg" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">OWN BROWSER </h6>
+                <p class="card-text text-secondary">This is my very own web browser that I can control.Built with PyQt5 in Python,it gives me the power to 
+                 visit websites, go back and forth, reload pages, and even set my favorite homepage. The program's interface is super simple:there's a 
+                 navigation bar where I can type in web addresses, just like a real browser.Plus, it shows me the current page's address, so I always know where I am.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/blog.jpg" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">EMAIL BOT</h6>
+                <p class="card-text text-secondary"> This project is my personal email assistant, designed to help me send emails without typing a single word!
+                   Using Python and some smart tools, it listens to my voice commands and does all the emailing for me. I just tell it who I want to email, the subject,
+                    and the message, and it takes care of the rest.It's like having my own email secretary, saving me time and making emailing so much easier!.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/react.jpg" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">AI Tool for Neurological Conditions (In Process)</h6>
+                <p class="card-text text-secondary">Upon uploading the scan reports, the AI tool quickly compares the data, extracting relevant information and patterns that 
+                    might be indicative of various neurological or medical conditions. It can detect anomalies, identify potential diseases, and even provide a preliminary 
+                    diagnosis and suggestions, all in a matter of touch and minute</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/python.jpg" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">IoT-based Healthcare Solutions(In process)</h6> 
+                <p class="card-text text-secondary"> Medical devices and systems that collect patient data and transmit it to healthcare providers
+                   for remote monitoring and diagnosis. Examples include IoT-enabled insulin pumps and ECG monitors.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </section>
+
+    <!-- About Section -->
+    <section class="container py-5" id="about">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center">
+          <h2>ABOUT</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">Learn more about me, my background, and what motivates me.</h5>
+        </div>
+      </div>
+      <div class="row flex-row-reverse flex-md-row mt-5 pt-5">
+        <div class="col-9 col-md-5 text-md-end">
+           <h3>Early Passion for Technology</h3>
+          <p> From a young age, my fascination with computers led me to progress in HTML, CSS, JavaScript, C, C++, and Python,
+             resulting in projects like an eye-controlled mouse, personal browser, voice assistant, and an ongoing AI Tool for Neurological Conditions.</p>
+        </div>
+        <div class="col-3 col-md-2 img text-center">
+          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/about-img-1.jpg" alt="img">
+        </div>
+      </div>
+      <div class="row justify-content-md-end mt-5 pt-5">
+        <div class="col-3 col-md-2 img text-center">
+          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/about-img-2.jpg" alt="img">
+        </div>
+        <div class="col-9 col-md-5">
+           
+          <h3>Education </h3>
+          <p> currently, I am pursuing Bachelor of Technology - Information Technology FINAL YEAR in Easwari Engineering College, Chennai , India
+            Various subjects i gained experience during my course is  Object-Oriented Programming,C++,Computer networks,Data structures,Ethical hacking,
+            Java Programming,Artificial Intelligence,Embedded systems and IoT applications</p>
+        </div>
+      </div>
+      <div class="row flex-row-reverse flex-md-row mt-5 pt-5">
+        <div class="col-9 col-md-5 text-md-end">
+          <h3>Experience</h3>
+          <h3>INTERN-2022</h3>
+          <p> As a web development intern, I actively contributed to project brainstorming sessions, skillfully documented project updates,
+            participated in professional development programs, gained valuable insights by shadowing senior developers, and consistently applied
+            best practices in software development and web security, showcasing a proactive approach to problem-solving and a commitment to
+            continuous learning.
+            </p>
+        </div>
+        <div class="col-3 col-md-2 img text-center">
+          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/about-img-3.jpg" alt="img">
+        </div>
+      </div>
+      <div class="row justify-content-md-end mt-5 pt-5">
+        <div class="col-3 col-md-2 img text-center">
+          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/about-img-4.jpg" alt="img">
+        </div>
+        <div class="col-9 col-md-5">
+          <h3>Future</h3>
+          <h3>Continuing to Make a Difference</h3>
+          <p>I am committed to leveraging my skills and expertise to contribute to meaningful projects that have a positive impact on society. I am eager to take on new challenges and collaborate with talented individuals to create innovative solutions.</p>
+        </div>
+      </div>
+      <div class="row justify-content-md-center mt-5 pt-5">
+        <div class="col-3 col-md-2 d-flex justify-content-center hire-text">
+          <h2 class="h4 d-flex justify-content-center align-items-center bg-primary text-white rounded-circle border border-5 border-dark-subtle"><span class="d-none d-md-block">Your<br>Next<br>Hire</span></h2>
+        </div>
+      </div>      
+    </section>
+
+    <!-- Curriculum Vitae Section -->
+    <section class="container py-5" id="cv">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center">
+          <h2>CURRICULUM VITAE</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">A small sampling of some of the projects I've worked on as a student of the ICS program.</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mt-5 order-lg-0 order-1 text-center">
+          <img class="img-fluid rounded-circle border border-5 border-dark-subtle" src="images/profile-img.jpg" alt="profile-img">
+          <h2 class="mt-3">Gnaneesh.M</h2>
+          <ul class="list-unstyled contact-info">
+            <li><i class="fas fa-envelope me-2"></i>gnaneesh007.com</li>
+            <li><i class="fas fa-phone me-2"></i>(+91)7200294402</li>
+            <li><i class="fas fa-map-marker-alt me-2"></i>Chennai</li>
+          </ul>
+          <ul class="social-icons my-5 d-flex justify-content-center">
+            <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-linkedin-in"></i></a>
+          </ul>
+          <h5>Technical Skills</h5>
+          <ul class="list-unstyled">
+            <li>HTML</li>
+            <li>Python</li>
+            <li>c</li>
+            <li>C++</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+ 
+
+
+            <!-- Add or remove skills as needed -->
+          </ul>
+          <h5>Personal Interests</h5>
+          <ul class="list-unstyled">
+            <li>Participating in Hackathon</li>
+            <li>Participating in a conference</li>
+            <li>Editing</li>
+            <li>Continuous Learning</li>
+            <!-- Add or remove interests as needed -->
+          </ul>
+        </div>
+        <div class="col-lg-7 order-lg-1 order-0 mt-5 text-start">
+          <h3>Profile</h3>
+          <hr>
+          <p>Greetings, I'm Akshaya J, an IT student  driven by a passion for innovation. Pursuing a B.Tech at Easwari Engineering College, I've gained a solid foundation in programming languages like Python, C++, and Java, along with tools like PyTorch and frameworks like Git</p>
+
+          <p>I recently delved into a Web Development Internship, actively contributing to brainstorming sessions, documenting project progress, and refining software skills. My ongoing AI Tool for Neurological Conditions and projects like the Eye-Controlled Mouse and Email Bot with Voice Recognition reflect my tech-driven creativity.</p>
+
+          <p>In addition, I've led teams as a class rep and sports captain, translating this experience into successful project management. My commitment extends beyond academics, with participation in India's Kawash Hackathon and global conferences. Connect on LinkedIn ([www.linkedin.com/in/akshaya-j-3b41a2247]) or email ([kalindhiakshaya@gmail.com]) I'm enthusiastic about contributing to tech advancements.
+
+          <h3>Highlights of Qualifications</h3>
+          <hr>
+          <ul>
+            <li>Qualification:
+
+              <P>Bachelor of Technology in Information Technology</P>
+             <P> Easwari Engineering College </P>
+              <P>(Expected Graduation: June 2024)</P>
+              <P>- Relevant Coursework: Object-Oriented Programming, C++, Computer Networks, Data Structures,
+                Ethical Hacking, Java Programming, Artificial Intelligence,
+                Embedded Systems and IoT Applications</P>
+              
+              <P>- Academic Projects: AI Tool for Neurological Conditions, Eye-Controlled Mouse, Email Bot with Voice Recognition,
+                Voice-Controlled Virtual Assistant, Custom Browser Development
+              </P>
+
+              <P>- CGPA: 8.28/10</P>
+              </li>
+              <!-- Add or remove qualifications as needed -->
+          </ul>
+          <h3>Bachelor of Technology in Information Technology</h3>
+          <hr>
+          <dl>
+            <dt>Easwari Engineering College</dt>
+            <dd>2020-2024</dd>
+           </dl>
+           <hr>
+           
+          <h3>Work Experience</h3>
+          <hr>
+          <dl>
+            <dt>INTERN</dt>
+            <dd>2022</dd>
+            <dd>Strings Infinity- WEB Developer</dd>
+            <!-- Add or remove work experience entries as needed -->
+          </dl>
+          <h3>Extracurricular Activities</h3>
+          <hr>
+          <dl>
+            <dt>CAPTAIN OF SPORTS TEAM</dt>
+            <dd>Been the sports captain and lead various teams and coordinated various events.</dd>
+           </dl>
+        </div>
+      </div>      
+    </section>
+
+     <!-- Contact Section -->
+     <section class="py-5" id="contact">
+      <div class="container-xxl py-5">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2 class="text-white">CONTACT ME</h2>
+          <h5 class="text-white fw-normal py-2 fst-italic">Interested if I'd be the right fit for your team? Fill in this form and I will respond within 24-48 hours.</h5>
+        </div>
+        <div class="row pt-4 mt-5">
+          <div class="col-12">
+            <form action="#" method="POST">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name*" required>
+                    <label for="floatingInput">Enter Name*</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="Enter Email*" required>
+                    <label for="floatingEmail">Enter Email*</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingPassword" placeholder="Enter Phone*" required>
+                    <label for="floatingPassword">Enter Phone no*</label>
+                  </div>
+                </div>
+                <div class="form-floating col-lg-6">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingMessage" style="height: 205px" required></textarea>
+                  <label for="floatingMessage" class="px-4">Enter Message*</label>
+                </div>
+                <div class="col-12 mt-5 d-flex justify-content-center">
+                  <button class="btn btn-lg btn-outline-light">SEND MESSAGE</button>
+                </div>
+              </div>
+  
+            </form>
+          </div>
+        </div>
+       </div>
+     </section>
+
+     <!-- Footer -->
+     <footer>
+      <div class="container-xxl flex-wrap pt-3 d-flex align-items-center justify-content-center justify-content-md-between">
+        <p>Gnaneesh</p>
+        <ul class="social-icons d-flex">
+          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-twitter"></i></small></a>
+          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-facebook-f"></i></small></a>
+          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-linkedin-in"></i></small></a>
+        </ul>
+      </div>
+     </footer>
+    
+     <!-- Bootstrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
