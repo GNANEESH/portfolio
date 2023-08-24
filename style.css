@@ -2,7 +2,7 @@
 :root {
     --white-color: #139dd8;
 
-    --bg-color: #bb8b07;
+    --bg-color: #020960;
     --gray-color: #ccc;
   }
   
@@ -15,7 +15,7 @@
   .nav-item .nav-link {
     color: var(--white-color);
   }
-  
+ 
   /* Hero section background image */
   .hero {
     height: 100vh;
